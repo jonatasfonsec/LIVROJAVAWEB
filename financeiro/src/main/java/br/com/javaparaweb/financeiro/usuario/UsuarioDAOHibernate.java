@@ -9,7 +9,7 @@ public class UsuarioDAOHibernate implements UsuarioDAO {
 	
 	private Session session;
 	
-	public void setSession(Session sesssion) {
+	public void setSession(Session session) {
 		this.session = session;
 	}
 	
